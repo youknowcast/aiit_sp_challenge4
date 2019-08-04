@@ -19,7 +19,7 @@ defmodule Hello.MixProject do
   def application do
     [
       mod: {Hello.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :dotenv]
     ]
   end
 
@@ -40,7 +40,8 @@ defmodule Hello.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:httpoison, "~> 1.5"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:dotenv, "~> 3.0.0"}
     ]
   end
 end

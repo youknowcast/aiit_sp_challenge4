@@ -34,3 +34,6 @@ npm-debug.log
 /priv/static/
 *.beam
 /config/*.secret.exs
+
+# unsave dotenv file
+.env
